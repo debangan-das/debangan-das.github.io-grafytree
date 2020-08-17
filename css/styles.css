@@ -16,9 +16,7 @@
   position: relative;
 }
 
-@media query {
 
-}
 
 .navbar-toggler{
   margin-left: auto;
@@ -30,7 +28,7 @@
 }
 .nav-link{
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family: 'Forum', cursive;
   letter-spacing: 1px;
 }
@@ -57,7 +55,7 @@
 
 #services h2{
   padding-left: 10%;
-  font-size: 5rem;
+  font-size:70px;
   font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   color: #616161;
@@ -72,10 +70,25 @@
   padding: 0 5%;
   position: relative;
   left: 15%;
-  font-size: 2rem;
+  font-size: 2em;
 
 }
 #footer a{
   text-decoration: none;
   color: white;
+}
+@media only screen and (max-width: 480px) {
+  .nav-link{
+    font-size: 3.5em;
+  }
+  .fab{
+    font-size: 4em;
+  }
+  h2{
+    font-size: 100px;
+  }
+  h3{
+    font-size: 5em;
+
+  }
 }
