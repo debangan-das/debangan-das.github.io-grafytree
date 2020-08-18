@@ -12,8 +12,9 @@
   height: 200px;
   width: 250px;
   margin: 20px auto auto 40px;
-  display: inline-block;
+
   position: relative;
+
 }
 
 
@@ -39,11 +40,13 @@
 }
 .col-lg-6{
   background-color: #fbb946;
-  padding: 10% 15%;
+  padding: 10% 10% ;
   border-style: solid;
   border-color: white;
   border-width: 20px;
+
   text-align: center;
+  display: inline-block;
 
 
 }
@@ -51,44 +54,66 @@
   color: white;
   font-family: 'Forum', cursive;
   letter-spacing:1px;
+  border: none;
 }
 
 #services h2{
   padding-left: 10%;
-  font-size:70px;
+  font-size:3em;
   font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   color: #616161;
 }
 #footer{
   background-color:#fbb946;
-  padding: 5% 10%;
+  padding: 10% 10%;
 
 
 }
 .fab{
-  padding: 0 5%;
-  position: relative;
-  left: 15%;
+
+
   font-size: 2em;
+  text-align: center;
 
 }
 #footer a{
   text-decoration: none;
   color: white;
 }
-@media only screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .nav-link{
-    font-size: 3.5em;
+    font-size: 2.5em;
   }
   .fab{
+    font-size: 2.5em;
+  }
+  #services h2{
     font-size: 4em;
   }
-  h2{
-    font-size: 100px;
-  }
   h3{
-    font-size: 5em;
+    font-size: 2em;
 
   }
+  .navbar-toggler{
+    width: 4em;
+    height: 3em;
+  }
+  #hero-section .btn{
+    position:relative;
+    left: 30%;
+  }
+}
+#hero-section .btn{
+  position: relative;
+  top: 10%;
+
+}
+.icons{
+
+  margin: 0 5%;
+
+}
+.footer-div{
+  text-align: center;
 }
