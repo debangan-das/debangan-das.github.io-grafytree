@@ -9,11 +9,14 @@
 }
 
 .logo{
-  height: 200px;
-  width: 250px;
-  margin: 20px auto auto 40px;
+  height: 60%;
+  width: 60%;
 
-  position: relative;
+}
+.title h4{
+  color: white;
+  font-family: 'Forum', cursive;
+  font-size: 1.5em;
 
 }
 
@@ -58,8 +61,8 @@
 }
 
 #services h2{
-  padding-left: 10%;
-  font-size:3em;
+  padding-left: 15%;
+  font-size:5em;
   font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   color: #616161;
@@ -100,15 +103,19 @@
     height: 3em;
   }
   #hero-section .btn{
-    position:relative;
-    left: 30%;
+
+
+
+  }
+  .title{
+    margin-left: 0;
+  }
+  .logo{
+    width: 70%;
+    height: 70%;
   }
 }
-#hero-section .btn{
-  position: relative;
-  top: 10%;
 
-}
 .icons{
 
   margin: 0 5%;
@@ -116,4 +123,9 @@
 }
 .footer-div{
   text-align: center;
+}
+.title{
+  text-align: center;
+  margin-left: 50px;
+  width: 50vw;
 }
