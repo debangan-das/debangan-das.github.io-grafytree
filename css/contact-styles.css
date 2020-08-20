@@ -6,8 +6,76 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
 }
 #heading{
+  position: relative;
+  top: 10%;
+  left: 5%;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
   color: white;
-  font-size: 10em;
+
+  font-size: 8em;
+  display: inline-block;
+
+
+
+
+}
+.navbar-toggler{
+  margin-left: auto;
+  border-color: white;
+}
+.nav-item{
+  margin-left: auto;
+
+}
+.nav-link{
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Forum', cursive;
+  letter-spacing: 1px;
+}
+.col-lg-6{
+  text-align: center;
+}
+.contact-div{
+  background-color: #fbb946;
+  border-radius: 50%;
+  height: 20vw;
+  width: 20vw;
+  text-align: center;
+  display: inline-block;
+
+
+
+}
+.contact-icon{
+font-size: 5vw;
+margin: -10
+}
+#contact-info{
+  padding: 10% 5%;
+}
+@media screen and (max-width: 990px) {
+  .nav-link{
+    font-size: 2.5em;
+  }
+  #heading{
+    font-size: 20vw;
+    text-align: center;
+    position: relative;
+    top: 5%;
+  }
+
+  .navbar-toggler{
+    width: 4em;
+    height: 3em;
+  }
+
+  .navbar-logo{
+    height: 60px;
+    width: 70px;
+  }
 }
