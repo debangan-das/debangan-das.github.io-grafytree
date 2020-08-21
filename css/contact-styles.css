@@ -41,6 +41,7 @@
 }
 .col-lg-6{
   text-align: center;
+  padding: 10% 10%;
 }
 .contact-div{
   background-color: #fbb946;
@@ -49,7 +50,7 @@
   width: 30vw;
   text-align: center;
   display: inline-block;
-  padding: 10px 10px;
+
 
 
 
@@ -57,17 +58,81 @@
 .contact-icon{
 font-size: 10vw;
 margin-top: 20%;
+color: white;
 
 }
 .contact-div h4{
   font-size: 1.5vw;
-  padding-top: 5%;
+  padding-top: 8%;
+  color: grey;
+  font-family: 'Forum', cursive;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 #contact-info{
-  padding: 10% 5%;
+  padding: 5% 5%;
 }
+.contact-div-social{
+  background-color: #fbb946;
+  border-radius: 50%;
+  height: 10vw;
+  width: 10vw;
+  text-align: center;
+  display: inline-block;
+
+
+
+}
+.col-lg-3{
+  text-align: center;
+
+  padding: 5% 5%;
+  display: inline-block;
+}
+.social-icons{
+   font-size: 5vw;
+   padding-top: 25%;
+
+
+
+   color: white;
+
+}
+#social-media{
+  text-align: center;
+  padding-bottom:10% ;
+  padding-top: 5%;
+}
+#social-media h2{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+  color: grey;
+  font-weight: bold;
+
+  font-size: 5em;
+  display: inline-block;
+
+}
+#footer{
+  background-color:#fbb946;
+  padding: 5% 0;
+  text-align: center;
+
+}
+#footer p{
+  color: grey;
+}
+hr{
+  border: 0.5px dotted grey;
+  width: 50%;
+
+}
+
+
+
+
 @media screen and (max-width: 990px) {
-  .nav-link{
+    .nav-link{
     font-size: 2.5em;
   }
   #heading{
@@ -94,11 +159,52 @@ margin-top: 20%;
   }
   .contact-icon{
   font-size: 15vw;
-  margin-top: 0;
+  margin: 0;
 
 
   }
   .contact-div h4{
-    font-size: 90%;
+    font-size: 2.5vw;
+  }
+  .contact-div-social{
+    height: 20vw;
+    width: 20vw;
+    font-size: 10vw;
+  }
+  #social-media h2{
+    font-size: 10vw;
+  }
+}
+@media screen and (max-width:575px){
+  .contact-div{
+    height: 60vw;
+    width: 60vw;
+    padding-top: 5%;
+  }
+
+  .contact-div h4{
+    font-size: 4vw;
+    position: relative;
+
+  }
+
+  .contact-icon{
+    margin-top: 20%;
+  }
+  .contact-div-social{
+    height: 40vw;
+    width: 40vw;
+    font-size: 10vw;
+  }
+  .social-icons{
+     font-size: 15vw;
+     padding-top: 27%;
+
+
+
+  }
+  #email{
+    position: relative;
+    right: 15%;
   }
 }
