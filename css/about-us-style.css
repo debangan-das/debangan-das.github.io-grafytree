@@ -1,0 +1,68 @@
+.hero-image {
+
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.navbar-toggler{
+  margin-left: auto;
+  border-color: white;
+}
+.nav-item{
+  margin-left: auto;
+}
+#heading1{
+  position: relative;
+  left: 10%;
+  top: 1%;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+  color: white;
+  display: inline-block;
+  font-size: 10em;
+  display: inline-block;
+
+
+}
+.nav-link{
+  font-weight: bold;
+  font-size: 1.5em;
+  font-family: 'Forum', cursive;
+  letter-spacing: 1px;
+}
+#footer{
+  background-color:#fbb946;
+  padding: 8% 8%;
+
+
+}
+.footer-div{
+  text-align: center;
+}
+.fab{
+
+
+  font-size: 4em;
+  text-align: center;
+  text-decoration: none;
+
+
+}
+.icons{
+  margin: 0 5%;
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+
+}
+#footer a{
+  text-decoration: none;
+  color: white;
+}
+
+#footer a :hover{
+  color: grey;
+}
