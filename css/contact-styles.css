@@ -123,11 +123,16 @@ color: white;
   color: grey;
 }
 hr{
-  border: 0.5px dotted grey;
+  border: 0.5px solid #c2c2c2;
   width: 50%;
 
 }
+.navbar-logo{
+  height: 110px;
+  width: 120px;
+  padding: 10%;
 
+}
 
 
 

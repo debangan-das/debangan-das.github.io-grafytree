@@ -1,5 +1,4 @@
 .hero-image {
-
   background-color: #cccccc;
   height: 100vh;
   background-position: center;
@@ -24,8 +23,6 @@
   display: inline-block;
   font-size: 10em;
   display: inline-block;
-
-
 }
 .nav-link{
   font-weight: bold;
@@ -36,20 +33,14 @@
 #footer{
   background-color:#fbb946;
   padding: 8% 8%;
-
-
 }
 .footer-div{
   text-align: center;
 }
 .fab{
-
-
   font-size: 4em;
   text-align: center;
   text-decoration: none;
-
-
 }
 .icons{
   margin: 0 5%;
@@ -65,4 +56,50 @@
 
 #footer a :hover{
   color: grey;
+}
+.container{
+  padding: 5% 5%;
+}
+p
+{
+  font-family: 'Forum', cursive;
+  padding: 8% 0;
+  font-size: 2em;
+}
+hr{
+  border: 0.5px solid #c2c2c2;
+  width: 50%;
+}
+.navbar-logo{
+  height: 110px;
+  width: 120px;
+  padding: 10%;
+}
+@media screen and (max-width:990px) {
+
+  #heading1{
+    font-size: 20vw;
+    text-align: center;
+    position: relative;
+    top: 20%;
+    padding-top: 10%;
+  }
+  .navbar-toggler{
+    width: 4em;
+    height: 3em;
+  }
+
+  .navbar-logo{
+    height: 60px;
+    width: 70px;
+  }
+  .nav-link{
+  font-size: 2.5em;
+}
+.container{
+  padding: 10% 10%;
+}
+.fab{
+  font-size: 8vw;
+}
 }
