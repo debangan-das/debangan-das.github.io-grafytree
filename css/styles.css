@@ -47,7 +47,7 @@
   font-family: 'Forum', cursive;
 
 }
-.col-lg-6{
+#services .col-lg-6{
   background-color: #fbb946;
   padding: 10% 10% ;
   border-style: solid;
@@ -59,7 +59,7 @@
 
 
 }
-.col-lg-6 h3{
+#services .col-lg-6 h3{
   color: white;
   font-family: 'Forum', cursive;
   letter-spacing:1px;
@@ -67,7 +67,7 @@
 }
 
 #services h2{
-  padding-left: 15%;
+  padding-left: 5%;
   font-size:5em;
   font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
@@ -99,6 +99,27 @@
   font-weight: bold;
   letter-spacing: 1px;
 
+}
+.pic{
+  width: 100%;
+  height: auto;
+}
+.photo-grid{
+  padding: 10px;
+}
+#our-work h2{
+  padding-left: 5%;
+  padding-top: 5%;
+  font-size:5em;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+  color: #616161;
+}
+#our-work h3{
+  font-family: 'Forum', cursive;
+  font-size: 3em;
+  text-align: center;
+  padding: 5% 0;
 }
 @media screen and (max-width: 990px) {
   .nav-link{
@@ -133,6 +154,9 @@
   .navbar-logo{
     height: 60px;
     width: 70px;
+  }
+  #our-work h2{
+    font-size: 4em;
   }
 }
 
