@@ -82,7 +82,7 @@ hr{
     text-align: center;
     position: relative;
     top: 20%;
-    padding-top: 10%;
+    padding-top: 30%;
   }
   .navbar-toggler{
     width: 4em;
@@ -90,8 +90,9 @@ hr{
   }
 
   .navbar-logo{
-    height: 60px;
-    width: 70px;
+    height: 80px;
+    width: 90px;
+    padding: 5%;
   }
   .nav-link{
   font-size: 2.5em;

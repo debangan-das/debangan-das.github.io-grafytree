@@ -2,8 +2,6 @@
 
 
 .heading {
-
-
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,17 +18,14 @@
   width: inherit;
 }
 
-
-
-
 .photo-nav{
   display: inline-block;
   position: relative;
   left: 10%;
   padding: 3% 2%;
-  font-size: 2em;
+  font-size: 2.5em;
   font-family: 'Forum', cursive;
-  font-style: bold;
+  font-weight: bold;
   letter-spacing: 1px;
   color: white;
 
@@ -65,6 +60,32 @@
   padding: 10%;
 
 }
+h2{
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+  color: #616161;
+  font-size: 5em;
+  padding: 8% 10%;
+}
+#footer{
+  background-color:#fbb946;
+  padding: 8% 8%;
+
+
+}
+.fab{
+
+  font-size: 4em;
+  text-align: center;
+
+}
+#footer a{
+  text-decoration: none;
+  color: white;
+}
+#footer a :hover{
+  color: grey;
+}
 @media screen and (max-width: 990px) {
   .nav-link{
     font-size: 2.5em;
@@ -94,11 +115,10 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-
     left: 0;
   }
   .photo-nav{
-    font-size: 5vw;
+    font-size: 7vw;
     padding: 7% 3vw;
     position: relative;
     left: 0;
@@ -111,5 +131,7 @@
   #baby{
     padding-top: 3%;
   }
-
+h2{
+  font-size: 4em;
+}
 }
