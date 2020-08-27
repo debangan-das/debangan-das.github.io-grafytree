@@ -65,11 +65,13 @@ h2{
   letter-spacing: 1px;
   color: #616161;
   font-size: 5em;
-  padding: 8% 10%;
+  padding: 8% 0;
+  display: inline-block;
 }
 #footer{
   background-color:#fbb946;
   padding: 8% 8%;
+  text-align: center;
 
 
 }
@@ -85,6 +87,11 @@ h2{
 }
 #footer a :hover{
   color: grey;
+}
+.icons{
+
+  margin: 0 5%;
+
 }
 @media screen and (max-width: 990px) {
   .nav-link{
@@ -131,7 +138,10 @@ h2{
   #baby{
     padding-top: 3%;
   }
-h2{
-  font-size: 4em;
-}
+  h2{
+    font-size: 4em;
+  }
+  .fab{
+    font-size: 8vw;
+  }
 }
