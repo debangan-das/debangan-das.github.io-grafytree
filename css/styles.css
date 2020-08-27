@@ -100,13 +100,7 @@
   letter-spacing: 1px;
 
 }
-.pic{
-  width: 100%;
-  height: auto;
-}
-.photo-grid{
-  padding: 10px;
-}
+
 #our-work h2{
   padding-left: 5%;
   padding-top: 5%;
@@ -121,6 +115,20 @@
   text-align: center;
   padding: 5% 0;
 }
+.icons{
+
+  margin: 0 5%;
+
+}
+.footer-div{
+  text-align: center;
+}
+.title{
+  text-align: center;
+  margin-left: 50px;
+  width: 50vw;
+}
+
 @media screen and (max-width: 990px) {
   .nav-link{
     font-size: 2.5em;
@@ -158,18 +166,4 @@
   #our-work h2{
     font-size: 4em;
   }
-}
-
-.icons{
-
-  margin: 0 5%;
-
-}
-.footer-div{
-  text-align: center;
-}
-.title{
-  text-align: center;
-  margin-left: 50px;
-  width: 50vw;
 }
