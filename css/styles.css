@@ -1,5 +1,9 @@
+body{
+  margin: 0;
+  width: 100%;
+}
 .hero-image {
-
+  background-image: url("../Images/background.jpg");
   background-color: #cccccc;
   height: 100vh;
   background-position: center;
@@ -66,26 +70,22 @@
   border: none;
 }
 
-#services h2{
-  padding-left: 5%;
-  font-size:5em;
-  font-family: 'EB Garamond', serif;
-  letter-spacing: 1px;
-  color: #616161;
-}
+
 #footer{
   background-color:#fbb946;
   padding: 8% 8%;
+  margin-top: 20px;
 
 
 }
-.fab{
-
-
-  font-size: 4em;
+#connect{
   text-align: center;
+  font-size: 1.5em;
+  color:  white;
+  font-family: 'Forum', cursive;
 
 }
+
 #footer a{
   text-decoration: none;
   color: white;
@@ -101,23 +101,20 @@
 
 }
 
-#our-work h2{
-  padding-left: 5%;
+.section-headings{
+
   padding-top: 5%;
   font-size:5em;
   font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   color: #616161;
-}
-#our-work h3{
-  font-family: 'Forum', cursive;
-  font-size: 3em;
   text-align: center;
-  padding: 5% 0;
 }
-.icons{
 
-  margin: 0 5%;
+.icons{
+  font-size: 2em;
+  text-align: center;
+  margin: 0 3%;
 
 }
 .footer-div{
@@ -125,9 +122,37 @@
 }
 .title{
   text-align: center;
-  margin-left: 50px;
+  margin-left:2% ;
   width: 50vw;
 }
+.see-more-buttons{
+  position: relative;
+  left: 46%;
+  margin-top: 5%;
+  text-align: center;
+}
+
+hr{
+  border: 0.5px solid #c2c2c2;
+  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.work-headings{
+  font-family: 'Forum', cursive;
+  font-size: 3em;
+  text-align: center;
+  padding: 5% 0;
+  color: #616161;
+}
+#copyright{
+  font-size: 1em;
+  margin-top: 8%;
+  margin-bottom: 0;
+  color: grey;
+  text-align: center;
+}
+
 
 @media screen and (max-width: 990px) {
   .nav-link{
@@ -153,7 +178,7 @@
 
   }
   .title{
-    margin-left: 0;
+    margin-left:1% ;
   }
   .logo{
     width: 70%;
@@ -165,5 +190,62 @@
   }
   #our-work h2{
     font-size: 4em;
+  }
+}
+
+
+
+/* image gallery style */
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 50%;
+  padding: 0 10px;
+}
+
+.column img {
+  margin-top: 20px;
+
+
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
   }
 }
