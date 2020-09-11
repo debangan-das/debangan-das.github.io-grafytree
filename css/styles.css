@@ -126,9 +126,12 @@ body{
   width: 50vw;
 }
 .see-more-buttons{
-  position: relative;
-  left: 46%;
+  /* position: relative;
+  left: 46%; */
   margin-top: 5%;
+  text-align: center;
+}
+.see-more{
   text-align: center;
 }
 
@@ -191,15 +194,13 @@ hr{
   #our-work h2{
     font-size: 4em;
   }
+  
 }
 
 
 
 /* image gallery style */
 
-* {
-  box-sizing: border-box;
-}
 
 
 
@@ -214,6 +215,8 @@ hr{
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 50px;
+  margin: 0;
+
 }
 
 /* Create four equal columns that sits next to each other */
