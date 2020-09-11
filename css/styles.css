@@ -194,7 +194,7 @@ hr{
   #our-work h2{
     font-size: 4em;
   }
-  
+
 }
 
 
@@ -202,12 +202,6 @@ hr{
 /* image gallery style */
 
 
-
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
 
 .row {
   display: -ms-flexbox; /* IE10 */
