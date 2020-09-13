@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body{
   margin: 0;
   width: 100%;
@@ -33,17 +36,21 @@ body{
 .nav-item{
   margin-left: auto;
 
+
 }
 .nav-link{
   font-weight: bold;
   font-size: 1.5em;
   font-family: 'Forum', cursive;
   letter-spacing: 1px;
+
 }
+
 .navbar-logo{
-  height: 110px;
-  width: 120px;
+  height: 100px;
+  width: 110px;
   padding: 10%;
+  
 
 }
 #quote{
@@ -63,12 +70,7 @@ body{
 
 
 }
-#services .col-lg-6 h3{
-  color: white;
-  font-family: 'Forum', cursive;
-  letter-spacing:1px;
-  border: none;
-}
+
 
 
 #footer{
@@ -86,13 +88,8 @@ body{
 
 }
 
-#footer a{
-  text-decoration: none;
-  color: white;
-}
-#footer a :hover{
-  color: grey;
-}
+
+
 .contact-button{
   margin: 3%;
   font-family: 'Forum', cursive;
@@ -115,7 +112,13 @@ body{
   font-size: 2em;
   text-align: center;
   margin: 0 3%;
+  text-decoration: none;
+  color: white;
 
+
+}
+.icons:hover{
+  color: grey;
 }
 .footer-div{
   text-align: center;
@@ -124,6 +127,7 @@ body{
   text-align: center;
   margin-left:2% ;
   width: 50vw;
+  position: relative;
 }
 .see-more-buttons{
   /* position: relative;
@@ -156,6 +160,45 @@ hr{
   text-align: center;
 }
 
+.service-image{
+  width: 500px;
+  height:450px;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  padding-top: 90px;
+  z-index: 1;
+
+
+}
+.service-info{
+  display: inline-block;
+  width: 450px;
+  height: 470px;
+  background-color: #fbb946 ;
+  position: relative;
+
+  left: 450px;
+  text-align: center;
+}
+.service-cards{
+  position: relative;
+  padding: 4% 20vw;
+}
+.service-headings{
+  padding-left: 50px;
+  padding-top: 45%;
+  padding-bottom: 9%;
+  font-family: 'EB Garamond', serif;
+  font-size: 2rem;
+}
+@media screen and (max-width: 1140px){
+  .service-cards{
+    padding-left: 9%;
+  }
+
+}
 
 @media screen and (max-width: 990px) {
   .nav-link{
