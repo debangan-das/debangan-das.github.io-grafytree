@@ -7,28 +7,31 @@ body{
 }
 
 .hero-image {
-  background-image: url("../Images/background.jpg");
-  background-color: #cccccc;
+  /* background-image: url("../Images/background.jpg"); */
+  background-color: #fbb946;
   height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+
+  position: relative;
+  text-align: center;
+}
+.title{
+  text-align: center;
+  width: auto;
+
   position: relative;
 }
 
 .logo{
-  height: 55%;
-  width: 55%;
+  height: 30%;
+  width: 30%;
 
 }
 .title h4{
   color: white;
   font-family: 'Forum', cursive;
-  font-size: 1.5em;
+  font-size: 2em;
 
 }
-
-
 
 .navbar-toggler{
   margin-left: auto;
@@ -55,10 +58,13 @@ body{
 
 }
 #quote{
-  padding: 10% 15%;
+  padding: 5% 15%;
   font-family: 'Forum', cursive;
   text-align: center;
 
+}
+.caption{
+  padding: 2% 0;
 }
 
 
@@ -114,15 +120,12 @@ body{
 .footer-div{
   text-align: center;
 }
-.title{
-  text-align: center;
-  margin-left:2% ;
-  width: 50vw;
-  position: relative;
-}
+
 .see-more-buttons{
 
   margin-top: 5%;
+  margin-left: 3%;
+  margin-right: 3%;
   text-align: center;
   color: #616161;
   font-weight: bold;
@@ -146,8 +149,6 @@ hr{
   text-align: center;
   padding: 5% 0;
   color: #616161;
-
-
 }
 #copyright{
   font-size: 1em;
@@ -197,17 +198,20 @@ hr{
   font-size: 2.5rem;
   color: white;
 }
-.contact-now-buttons{
+.see-our-work-buttons{
   color: white;
-
+  border-width: 3px;
   font-family: 'Forum', cursive;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 
 .card-container{
   text-align: center;
 }
-
+.work-image{
+  width:100%;
+  box-shadow: 5px 5px 5px grey;
+}
 @media screen and (min-width: 991px){
   #service-cards-section-mob{
     display: none;
