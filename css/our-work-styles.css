@@ -50,9 +50,10 @@
 }
 .nav-link{
   font-weight: bold;
-  font-size: 1.5em;
-  font-family: 'Forum', cursive;
+  font-size: 1.4em;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
+
 }
 .navbar-logo{
   height: 110px;
@@ -71,28 +72,38 @@ h2{
 #footer{
   background-color:#fbb946;
   padding: 8% 8%;
+  margin-top: 20px;
+
+}
+#connect{
   text-align: center;
+  font-size: 1.5em;
+  color:  white;
+  font-family: 'Montserrat', sans-serif;
 
-
-}
-.fab{
-
-  font-size: 4em;
-  text-align: center;
-
-}
-#footer a{
-  text-decoration: none;
-  color: white;
-}
-#footer a :hover{
-  color: grey;
 }
 .icons{
-
-  margin: 0 5%;
+  font-size: 2em;
+  text-align: center;
+  margin: 0 3%;
+  text-decoration: none;
+  color: white;
 
 }
+.icons:hover{
+  color: grey;
+}
+.footer-div{
+  text-align: center;
+}
+#copyright{
+  font-size: 1em;
+  margin-top: 8%;
+  margin-bottom: 0;
+  color: grey;
+  text-align: center;
+}
+
 @media screen and (max-width: 990px) {
   .nav-link{
     font-size: 2.5em;

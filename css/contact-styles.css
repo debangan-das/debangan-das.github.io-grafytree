@@ -15,12 +15,8 @@
   font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   color: white;
-
   font-size: 8em;
   display: inline-block;
-
-
-
 
 }
 .navbar-toggler{
@@ -34,14 +30,16 @@
 
 .nav-link{
   font-weight: bold;
-  font-size: 1.5em;
-  font-family: 'Forum', cursive;
+  font-size: 1.4em;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
 }
 
 .contact-info{
   display: inline-block;
   font-size: 1.5em;
+  font-family: 'Montserrat', sans-serif;
+  color: #616161;
 }
 .container{
   text-align: center;
@@ -49,7 +47,48 @@
 .contact-div{
   padding: 4% 5%;
 }
+.contact-info-header{
+  padding: 8% 0 1% 0;
+  font-family: 'Forum', cursive;
+  color: #616161;
+}
+.contact-info-button{
+  background-color: #fbb946;
+  color: white;
+  border-radius: 25px;
+  border-width: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  box-shadow: 2px 2px 5px grey;
+  padding: 10px 20px;
+}
+.social-media-heading{
+  padding: 4% 0 3% 0;
+  font-family: 'Forum', cursive;
+  color: #616161;
+}
+.social-buttons{
+  background-color: #fbb946;
+  color: white;
+  border-width: 0;
+  border-radius: 50px;
+  font-size: 2em;
+  margin: 0 3% 10% 3%;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 5px grey;
+}
+.footer{
+  background-color: #fbb946;
+  padding: 5%;
+  text-align: center;
+}
+#copyright{
+  font-size: 1em;
 
+  
+  color: grey;
+  text-align: center;
+}
 
 
 

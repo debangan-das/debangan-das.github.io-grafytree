@@ -13,6 +13,12 @@
 .nav-item{
   margin-left: auto;
 }
+.nav-link{
+  font-weight: bold;
+  font-size: 1.4em;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+}
 #heading1{
   position: relative;
   left: 10%;
@@ -24,43 +30,46 @@
   font-size: 10em;
   display: inline-block;
 }
-.nav-link{
-  font-weight: bold;
-  font-size: 1.5em;
-  font-family: 'Forum', cursive;
-  letter-spacing: 1px;
-}
+
 #footer{
   background-color:#fbb946;
   padding: 8% 8%;
+  margin-top: 20px;
+
+}
+#connect{
+  text-align: center;
+  font-size: 1.5em;
+  color:  white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+.icons{
+  font-size: 2em;
+  text-align: center;
+  margin: 0 3%;
+  text-decoration: none;
+  color: white;
+
+}
+.icons:hover{
+  color: grey;
 }
 .footer-div{
   text-align: center;
 }
-.fab{
-  font-size: 4em;
-  text-align: center;
-  text-decoration: none;
-}
-.icons{
-  margin: 0 5%;
-  text-decoration: none;
-  color: white;
-  display: inline-block;
-
-}
-#footer a{
-  text-decoration: none;
-  color: white;
-}
-
-#footer a :hover{
+#copyright{
+  font-size: 1em;
+  margin-top: 8%;
+  margin-bottom: 0;
   color: grey;
+  text-align: center;
 }
+
 .container{
   padding: 5% 5%;
 }
-p
+.info
 {
   font-family: 'Forum', cursive;
   padding: 8% 0;
