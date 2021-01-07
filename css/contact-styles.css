@@ -1,23 +1,14 @@
-.hero-image {
 
-  background-color: #cccccc;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #fbb946;
 
 }
-#heading{
-  position: relative;
-  top: 10%;
-  left: 5%;
-  font-family: 'EB Garamond', serif;
-  letter-spacing: 1px;
-  color: white;
-  font-size: 8em;
-  display: inline-block;
-
+.navbar-logo{
+  height: 70px;
+  width: 80px;
+  padding: 8%;
 }
 .navbar-toggler{
   margin-left: auto;
@@ -30,9 +21,31 @@
 
 .nav-link{
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
+}
+
+.hero-image {
+
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+}
+#heading{
+  position: relative;
+  top: 20%;
+  left: 10%;
+  font-family: 'EB Garamond', serif;
+  letter-spacing: 1px;
+  color: white;
+  font-size: 8em;
+  display: inline-block;
+
 }
 
 .contact-info{
@@ -85,7 +98,7 @@
 #copyright{
   font-size: 1em;
 
-  
+
   color: grey;
   text-align: center;
 }
@@ -94,18 +107,18 @@
 
 @media screen and (max-width: 990px) {
     .nav-link{
-    font-size: 2.5em;
+    font-size: 1.5em;
   }
   #heading{
-    font-size: 20vw;
+    font-size: 18vw;
     text-align: center;
     position: relative;
-    top: 5%;
+    top: 20%;
   }
 
   .navbar-toggler{
-    width: 4em;
-    height: 3em;
+    width: 3em;
+    height: 2em;
   }
 
   .navbar-logo{

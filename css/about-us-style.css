@@ -6,6 +6,18 @@
   background-size: cover;
   position: relative;
 }
+.navbar{
+  padding-top: 0;
+  padding-bottom: 0;
+  background-color: #fbb946;
+
+}
+.navbar-logo{
+  height: 70px;
+  width: 80px;
+  padding: 8%;
+
+}
 .navbar-toggler{
   margin-left: auto;
   border-color: white;
@@ -15,14 +27,14 @@
 }
 .nav-link{
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
 }
 #heading1{
   position: relative;
   left: 10%;
-  top: 1%;
+  top: 15%;
   font-family: 'EB Garamond', serif;
   letter-spacing: 1px;
   color: white;
@@ -79,11 +91,7 @@ hr{
   border: 0.5px solid #c2c2c2;
   width: 50%;
 }
-.navbar-logo{
-  height: 110px;
-  width: 120px;
-  padding: 10%;
-}
+
 @media screen and (max-width:990px) {
 
   #heading1{
@@ -94,17 +102,17 @@ hr{
     padding-top: 30%;
   }
   .navbar-toggler{
-    width: 4em;
-    height: 3em;
+    width: 3em;
+    height: 2em;
+
   }
 
   .navbar-logo{
-    height: 80px;
-    width: 90px;
-    padding: 5%;
+    height: 60px;
+    width: 70px;
   }
   .nav-link{
-  font-size: 2.5em;
+  font-size: 1.5em;
 }
 .container{
   padding: 10% 10%;
