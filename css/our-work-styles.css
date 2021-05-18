@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 
 
 .heading {
@@ -130,6 +132,9 @@ hr{
   margin-top: 5%;
   margin-bottom: 5%;
 }
+.video-div{
+  margin-top: 50px;
+}
 @media screen and (max-width: 990px) {
   .nav-link{
     font-size: 1.5em;
@@ -177,9 +182,7 @@ hr{
   .section-heading{
     font-size: 3em;
   }
-  .fab{
-    font-size: 8vw;
-  }
+  
 }
 
 /* image gallery */
