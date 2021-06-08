@@ -36,7 +36,8 @@ html{
 .navbar{
   padding-top: 0;
   padding-bottom: 0;
-  background-color: #fbb946;
+  background-color: black;
+  opacity: 70%;
 
 }
 
@@ -182,7 +183,7 @@ hr{
   .section-heading{
     font-size: 3em;
   }
-  
+
 }
 
 /* image gallery */
