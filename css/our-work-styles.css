@@ -59,7 +59,8 @@ html{
 
 }
 .dropdown-menu{
-  background-color:#fbb946;
+  background-color:black;
+  opacity: 70%;
 }
 .dropdown-item{
 
